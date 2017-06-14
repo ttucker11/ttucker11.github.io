@@ -1,97 +1,320 @@
-.container{
+/*Header*/
+
+#books{
+  max-width: 700px;
+ 
+}
+.contianter{
   position: relative;
 }
-
-.headline-bar{ 
-postion: absolute;
-max-width: 100%;
-height: 150px;
-background: #3cd3c7;
-margin-top: 50px;
+.pinksquare{
+  position: absolute;
+  width: 120px;
+  height:120px;
+  background-color: #CE24B6;
+  margin-top: -140px;
 }
 
-.prof-pic{
-  width: 200px;
-  border-radius: 50%;
-  margin-left: 65%;
-  margin-top: -185px;
-}
-
-.box{
-  font-size: 2em;
-  margin-top: -190px;
-  margin-left: 25%;
-}
-.aboutme{
- padding: 20px;
-  margin-left: 25px;
-}
-
-h4{
-  font-size: 30px;
-  margin-top: -5px;
-  margin-left: 50px;
-}
-
-.movies{
- margin-left: 20px;
-  padding: 20px;
-}
-
-img{ 
-max-width: 500px;
-padding: 20px
-}
-
-p{
- 
-  font-size: 22px;
-}
-
-.linebreak{
-max-width:100%;
-height: 10px;
-background-color: #eb3a57;
-
-}
-
-#wonderful{
-float: left;
-  margin-top: -30px;
-}
-
-#superbad{
-  float: right;
-}
-
-#goonies{
-  float: left;
-}
-.stelmo{
-  height: 500px;
-  float: left;
-}
-.btn {
-  
-  width: 7em;
-  height: 1.5em; 
-  background-color: #66bbb0;
-  font-size: 20px;
-  padding: 20px;
-  border-radius: 25px;
-  color: #000000;
-  text-decoration: none;
-}
-
-@media (max-width: 1000px) {
- 
-  .headline-bar{
-    max-width: ;
+#t{
+  font-size: 7em;
+  margin-top: -15px;
+  margin-left: 38px;
+  color: #ffffff;
+  font-family: sans-Serif;
+  font-style: italic;
   }
-  #wonderful{ 
-    float: none;}
-  #superbad{
-    float: none;}
-  #goonies {
-    float: none;}
+
+#name{
+  position: absolute;
+  font-size: 40px;
+  color: white;
+  font-style: bold;
+  margin-top: -110px;
+  margin-left: 120px;
+}
+#me{ 
+font-size: 1.6em;}
+
+.profile{
+ max-width: 200px;
+  margin-top: -120px;
+  margin-left: 220px;
+ 
+}
+
+.back{
+  position: relative;
+  max-width: 100%;
+  height: 2500px;
+  background-color: #5eedee;
+  margin-top:-5px;
+}
+#leftbar {
+  Position: absolute;
+  width:325px;
+  height: 75px;
+  background: rgba(234,178,194,.45);
+  margin-top: 55px;
+}
+#rightbar {
+  Position: absolute;
+  width:325px;
+  height: 75px;
+  background: rgba(234,178,194,.25);
+  margin-top: 275px;
+  margin-left: 375px;
+}
+
+#aboutme {
+  position: absolute;
+  max-width: 100px;
+  height: 300px;
+  background-color: #000000;
+}
+.aboutbox {
+  positioning: relative;
+  max-width: 300px;
+  height:400px;
+  background-color: rgba(234,178,194,.25);
+  margin-top: -4px;
+  margin-left: 165px;
+  padding: 5px;
+}
+
+.movie{
+  text-align: center;
+  font-size: 2.5em;
+  font-style: bold;
+}
+
+.wonderful {
+  max-width: 200px;
+  margin-left: 20px;
+  float: left;
+  
+}
+#wonderful copy{
+  pos
+}
+.goonies {
+  max-width: 200px;
+  margin-left: 20px;
+  float: left;
+}
+.super {
+  max-width: 200px;
+  margin-left: 20px;
+  float: left; 
+}
+.deets{
+  font-size: 1.9em;
+}
+.book{
+  text-align: center;
+  font-size: 2.5em;
+  font-style: bold;
+}
+.elmo{
+margin-left: 220px;;
+}
+
+.button{
+  position: relative;
+  width: 150px;
+  height:150px;
+  border-radius: 50%;
+  background-color: #C4C4C4;
+margin-left: 260px;
+  margin-top: 20px;
+} 
+.buy{
+  position: absolute;
+  margin-left: 325px;
+  margin-top: -85px;
+}
+
+/************MEDIA QUERIES***********/
+
+@media (min-width: 900px) {
+  #books {
+    max-width: 100%;
+      .back{
+  position: relative;
+  max-width: 100%;
+
+      
+
+
+
+
+#name{
+  position: absolute;
+  font-size: 40px;
+  color: white;
+  font-style: bold;
+  margin-top: -184px;
+  margin-left: 120px;
+}
+#me{ 
+font-size: 1.6em;}
+
+.profile{
+ max-width: 200px;
+  margin: auto;
+ 
+
+ 
+}
+#leftbar {
+
+  width:735px;
+  
+}
+#rightbar {
+ 
+  width:735px;
+ 
+#aboutme {
+  position: absolute;
+  max-width: 100px;
+  height: 300px;
+  background-color: #000000;
+}
+.aboutbox {
+  positioning: relative;
+  max-width: 300px;
+  height:400px;
+  background-color: rgba(234,178,194,.25);
+  margin-top: -4px;
+  margin-left: 165px;
+  padding: 5px;
+}
+
+.movie{
+  text-align: center;
+  font-size: 2.5em;
+  font-style: bold;
+}
+
+.wonderful {
+  max-width: 200px;
+  margin-left: 20px;
+  float: left;
+  
+}
+.goonies {
+  max-width: 200px;
+  margin-left: 20px;
+  float: left;
+}
+.super {
+  max-width: 200px;
+  margin-left: 20px;
+  float: left; 
+}
+.deets{
+  font-size: 1.9em;
+}
+.book{
+  text-align: center;
+  font-size: 2.5em;
+  font-style: bold;
+}
+.elmo{
+margin-left: 220px;;
+}
+
+.button{
+  position: relative;
+  width: 150px;
+  height:150px;
+  border-radius: 50%;
+  background-color: #C4C4C4;
+margin-left: 260px;
+  margin-top: 20px;
+} 
+.buy{
+  position: absolute;
+  margin-left: 325px;
+  margin-top: -85px;
+}
+
+/************MEDIA QUERIES***********/
+
+@media (min-width: 900px) {
+  #books {
+    max-width: 100%;
+  }  
+  
+  .back{
+    max-width: 100%;
+  } 
+
+#me{ 
+font-size: 1.6em;}
+
+.profile{
+ align: center;
+ 
+}
+
+#leftbar {
+
+  width:835px;
+ 
+}
+#rightbar {
+ 
+  width: 835px;
+  } 
+
+#aboutme {
+  position: absolute;
+  max-width: 100px;
+  height: 300px;
+  background-color: #000000;
+  }
+.aboutbox {
+  
+  margin-left: auto;
+
+}
+
+.movie{
+  text-align: center;
+  font-size: 2.5em;
+  font-style: bold;
+}
+
+.wonderful {
+  float: none;
+  
+}
+.goonies {
+ 
+  float: none;
+}
+.super {
+
+  float: none; 
+}
+.deets{
+  font-size: 1.9em;
+}
+.book{
+  text-align: center;
+  font-size: 2.5em;
+  font-style: bold;
+}
+.elmo{
+margin-left: 220px;;
+}
+
+.button{
+margin: auto;
+
+  
+} 
+.buy{
+margin-auto;
 }
